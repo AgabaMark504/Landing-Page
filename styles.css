@@ -3,6 +3,7 @@
 *{
     margin:0;
     padding:0;
+
 }
 
 .section-one{
@@ -101,6 +102,10 @@ img{
     border: #3882f6 2px;
     border-radius: 10px;
 }
+.section-two{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
 
 h2{
    font-size: 36px;
@@ -130,5 +135,69 @@ h2{
     height: 80px;
     text-align: center;
     font-size: 18px;
+}
+.section-three{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    padding: 150px 265px 100px 265px;
+
+}
+.quote{
+    align-items: center;
+   font-size: 36px; 
+   font-style: italic;
+   font-weight: lighter; 
+   color: #1f2937; 
+}
+.quoted{
+    text-align: right;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-right: 45px;
+}
+.section-four{
+    background-color: #3882f6;
+    margin: 75px 150px 100px 150px;
+    display:flex;
+    flex-direction: row;
+    border-radius: 10px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    width: 60%;
+}
+.call{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+.click{
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.action{
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    background-color: #3882f6;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.note{
+    display:flex;
+    height: 75px;
+    background-color: #1f2937;
+    color: white;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
 
 }
